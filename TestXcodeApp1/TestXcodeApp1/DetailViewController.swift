@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
             if let label = self.detailDescriptionLabel {
                 
                 //wcon: do a change to test gitHub commit
-                label.text = detail.description + "789"
+                label.text = detail.description + "789" + "abc"
             }
         }
     }
